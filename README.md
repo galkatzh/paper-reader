@@ -18,4 +18,6 @@ and every proof gets an outline of its steps written by Claude.
 - Proof outlines are written by a model and marked "machine-written, not checked".
 - The page loads fonts from Google Fonts, and pdf.js from cdnjs when a paper has PDF figures.
 
-`index.html` is a build; its source is not published here.
+`index.html` is a build; its source is not published here. It contains MathJax 3.2.2 and
+mhchemParser 4.2.1, both under the Apache License 2.0: see `THIRD_PARTY_NOTICES.md`, which is also
+shown at the foot of the page.
